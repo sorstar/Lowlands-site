@@ -1,0 +1,151 @@
+body {
+    background: #072ec2;
+
+}
+
+main {
+
+}
+
+article {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+ul {
+    background-color: #072ec2;
+    -webkit-box-shadow: 2px 1px 2px 0.5px #777777;
+    -moz-box-shadow: 2px 1px 0.5px 1px #777777;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    margin: -8px;
+    padding: 10px;
+
+
+}
+
+li {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+a {
+    color: white;
+    font-family: pixeloperator-bold;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.logo_lowlands {
+    margin: -4px;
+    width: 35.5px;
+
+}
+
+header {
+    /*    display: block;*/
+
+    background-image: url(../images/lowlands_home_header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 570px;
+
+
+
+
+}
+
+.home {
+    color: white;
+    display: table;
+    font-family: pixeloperator-bold;
+    font-size: 10vw;
+    margin: 20%;
+    margin-left: 40%;
+    /*    text-shadow: 2.5px 3px grey;*/
+    text-shadow: 1px 1px 2px grey, 0 0 1em #072ec2, 0 0 0.2em #072ec2;
+
+}
+
+h1 {
+    color: white;
+    display: table;
+    font-family: pixeloperator-bold;
+    font-size: 10vw;
+    margin: 20%;
+    margin-left: 40%;
+    /*    text-shadow: 2.5px 3px grey;*/
+    text-shadow: 1px 1px 2px grey, 0 0 1em #072ec2, 0 0 0.2em #072ec2;
+
+}
+
+h2 {
+    color: white;
+    font-family: pixeloperator-bold;
+    margin-left: 45%;
+
+}
+
+img {
+    width: 320px;
+}
+
+p {
+    color: white;
+    font-family: pixeloperator-bold;
+    text-align: center;
+    /*    background-color: seagreen;*/
+}
+
+footer {
+
+    font-family: pixeloperator-bold;
+    font-size: 45vw;
+    color: white;
+    text-align: center;
+
+}
+
+/*.datumevent {
+    background-color: seagreen;
+    display: inline-table;
+    width: 360px;
+    height: 90px;
+    font-size: 3vw;
+    margin-left: 34%;
+    margin-top: -30%;
+    border-radius: 10px;
+}
+
+.datumevent h2{
+    font-size: 35px;
+    margin-left: 78px;
+
+}
+
+.tickets {
+    width: 25vw;
+    font-family: pixeloperator-bold;
+    font-size: 1.8vw;
+    margin-left: 24%;
+    color: #072ec2;
+    background-color: white;
+    border-radius: 4px;
+    text-shadow: 1px 1px 1.5px grey, 0 0 0.1em #072ec2;
+
+
+}
+
+
+.tickets {
+    font-size: 22px;
+    margin-top: 8%;
+    display: table;
+}
